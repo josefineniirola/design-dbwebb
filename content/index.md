@@ -1,13 +1,17 @@
 ---
-Title: Home
-Description: This is our index page.
+Title: Hem
+Description: About me page
 ---
 
-Home page
+Om mig
 ==========================
 
-The source for this page is in `content/index.md`.
+Josefine heter jag. Född och uppvuxen i Flen, Sörmland. Jag är en mix av de bästa temperamenten, Sydamerikan & Finländare. Men ändå är jag otroligt lugn så du behöver inte oroa dig!. 
 
-This is a sample home page written in markdown with some frontmatter defined.
+Mina intressen: Tacos, motorcyklar, hundar, teknik, foto/kameror & spel!
+[![Josefine](assets/img/me.png)](%base_url% "Josefine") {.image .small .float-right}
 
-The pages make up a Anax site for demonstration purpose, it is something to start from.
+Jag har också alltid älskat att sporta. Jag har nog testat det mesta men sporten jag fastnade för mest var Taekwon-Do. Det kommer låta konstigt men jag älskar att sparkas och slåss. När jag tränade Taekwon-Do så tävlade jag väldigt mycket och var även Instruktör. Det var riktigt kul!
+
+
+Men nu sparkas jag inte lika mycket. Inte alls faktiskt, för det finns inge taekwon-do här i karlskrona och då har jag gått över till att gymma. Lite mindre kul det men jag rör på mig i alla fall!

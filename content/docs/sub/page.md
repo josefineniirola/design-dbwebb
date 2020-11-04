@@ -1,5 +1,5 @@
 ---
-Title: Sub Page
+Title: 
 ---
 
 ## This is a Sub Page
