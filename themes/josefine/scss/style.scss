@@ -1,0 +1,294 @@
+@import 'old';
+@import 'variables';
+@import '../../node_modules/normalize.css/normalize';
+@import '../../shared/fontawesome/scss/fontawesome';
+
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Slab&display=swap');
+
+* {
+    font-family: 'Cabin', sans-serif;
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-y: scroll;
+    font-size: 16px;
+
+    body {
+        height: 100%;
+    }
+}
+
+body {
+    background-image: $background-image;
+    display: flex;
+    flex-direction: column;
+    // TYPOGRAPHY
+
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-variant-ligatures: common-ligatures;
+    text-rendering: optimizeLegibility;
+    font-kerning: normal;
+    color: #444;
+}
+
+
+.header {
+    background: #fff;
+    background-image: url('../../shared/img/gaming-pattern.png');
+}
+
+.title {
+    * {
+        margin: 0;
+        color: #111;
+    }
+
+    p {
+        font-style: italic;
+    }
+}
+
+.logo {
+    height: 14em;
+    float: left;
+    
+    * {
+        display: block;
+        height: 100%;
+    }
+
+    img {
+        min-width: 4.8em;
+    }
+}
+
+.main {
+    flex: 1 0 auto;
+    padding: 5em 0 4em;
+    min-height: 35em;
+
+    .container {
+        overflow-x: auto;
+    }
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Slab', sans-serif;
+    margin-bottom: 0.6em;
+    font-weight: bold;
+    color: #333;
+}
+
+p,
+td,
+th,
+li,
+dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+a {
+    color: #2eae9b;
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+
+    a:hover {
+        color: #444;
+    }
+}
+
+li {
+    list-style: none;
+    margin: 0.3em;
+}
+
+// navbar
+.nav {
+    padding: 3em 0;
+    text-align: right;
+    font-family: 'Roboto Slab', serif;
+
+    a .nav-toggle {
+        color: rgb(91, 160, 146,);
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+        margin-left: 1em;
+        padding: 0;
+        font-weight: bold;
+    }
+
+}
+
+
+.nav .active a,
+.nav a:hover,
+.nav-toggle:hover {
+    color: #3b440d;
+}
+
+.nav a:hover,
+.nav-toggle:hover {
+    color: #3b440d;
+    text-decoration: none;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+// container
+.container {
+    max-width: 48em;
+    padding: 0 0.5em;
+    margin: 0 auto;
+}
+
+// text background for description about me
+.text-background {
+    background-color: rgb(229, 229, 229, 0.5);
+    overflow: auto;
+    padding: 1em;
+
+    img {
+        float: right;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+// footer
+.footer {
+    background: rgb(91, 160, 146, 0.5);
+    color: #c0c0c0;
+
+    a {
+        color: #ddd;
+    }
+
+    a:hover {
+        color: rgb(91, 160, 146);
+    }
+
+    p {
+        margin: 0;
+        padding: 3em 0;
+        color: #ccc;
+    }
+
+    .social {
+        float: right;
+        padding: 1.5em 0 1.5em 1em;
+        font-size: 2rem;
+    }
+}
+
+/*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
+
+@media (max-width: 767px) {
+    .main {
+        padding: 2em 0 1em;
+    }
+
+    .title,
+    .logo {
+        padding: 2em 1.5em 2em 0;
+    }
+
+    .logo {
+        height: 8.8em;
+    }
+
+    .nav {
+        clear: both;
+        padding: 0;
+    }
+
+    .nav ul {
+        padding-bottom: 1em;
+    }
+
+    .nav ul li {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .nav ul li a {
+        display: block;
+        padding: 0.5em 0;
+    }
+
+    .js .nav-toggle {
+        display: block;
+        float: right;
+        width: 2em;
+        margin: 0.6667em 0;
+        font-size: 1.5rem;
+        line-height: 2em;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .js .nav-toggle>* {
+        vertical-align: middle;
+    }
+
+    .footer p {
+        padding: 1em 0;
+    }
+
+    .footer .social {
+        padding: 0.5em 0 0.5em 1em;
+    }
+}
+
+@media (max-width: 767px) {
+    .image.xsmall {
+        width: 60%;
+    }
+
+    .image.small {
+        width: 80%;
+    }
+
+    .image.large,
+    .image.xlarge {
+        width: 100%;
+    }
+
+    .image.float-left,
+    .image.float-right {
+        float: none;
+        margin: 0 auto;
+    }
+}
