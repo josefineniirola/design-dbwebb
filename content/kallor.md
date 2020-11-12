@@ -1,6 +1,7 @@
 ---
 Title: Källor
 Description: Källor
+icon: fab fa-sourcetree
 ---
 
 Mina källor
