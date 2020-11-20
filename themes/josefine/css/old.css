@@ -1,4 +1,4 @@
-*:focus {
+/* *:focus {
     outline: 0;
 }
 
@@ -20,18 +20,18 @@
 .slide {
     overflow-y: hidden !important;
     transition: height 0.5s ease-in !important;
-}
+} */
 
 
 /*** BASIC LAYOUT ***/
-.header,
+/* .header,
 .footer {
     flex: 0 0 auto;
-}
+} */
 
-.widescreen .container {
+/* .widescreen .container {
     max-width: 72em;
-}
+} */
 
 
 /*** BASIC LAYOUT: HEADER ***/
@@ -101,16 +101,6 @@
  */
 
 /* IE8 + IE9 clearfix */
-
-.header>.container::after {
-    content: '';
-    display: block;
-    clear: both;
-}
-
-.flash-img {
-    height: 100%;
-}
 
 
 /* /*** BASIC LAYOUT: FOOTER ***/

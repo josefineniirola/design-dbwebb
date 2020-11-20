@@ -1,0 +1,221 @@
+/* Report landing page */
+
+.landingpage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em 2em;
+    padding: 0 1em;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.kmom-box {
+    background-color: #ececec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        padding: 1.5em 0.5em;
+        margin: 0;
+    }
+
+    a {
+        background-color: rgb(25, 50, 44, 0.7);
+        width: 100%;
+        text-align: center;
+    }
+}
+
+// kmom10 //
+.kmom-box.project {
+    grid-column: span 3;
+}
+
+// När du klickat på en kmom //
+.report-container {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    width: 80%;
+    padding: 2em;
+    margin: auto;
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.sidebar a {
+    font-size: 2em;
+    text-align: center;
+}
+
+.arrow {
+    width: 100%;
+    text-align: right;
+    padding: 0.5em;
+
+    a {
+        background-color: transparent;
+        color: $arrow-color;
+        font-size: 3em;
+    }
+    
+    a:hover {
+        color: #ccc;
+    }
+}
+
+.report {
+    background-color: rgb(229, 229, 229, 0.5);
+    padding: 1em 4em;
+
+    p {
+        padding: 0.4em;
+        font-size: 1.3em;
+    }
+
+    li {
+        font-size: 1.3em;
+    }
+}
+
+
+.arrows-kmom {
+    display: none;
+}
+
+
+/* Analys */
+.analys-box {
+    background-color: #ececec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        padding: 1.5em 0.5em;
+        margin: 0;
+    }
+
+    a {
+        background-color: rgb(25, 50, 44, 0.7);
+        width: 100%;
+        text-align: center;
+    }
+
+    .arrow a {
+        background-color: transparent;
+    }
+}
+
+
+.analysis {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em 2em;
+    padding: 0 10em;
+}
+
+.analysis h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+/* Media Queries */
+
+@media (max-width: 920px) {
+    .sidebar {
+        display: none !important;
+    }
+
+    .report {
+        font-size: 0.8em;
+        padding: 0.4em;
+    }
+
+    .report-container {
+        grid-template-columns: 1fr;
+        width: fit-content;
+    }
+
+    .arrows-kmom {
+        display: flex;
+        justify-content: center;
+        font-size: 3em;
+
+        a {
+            color: $arrow-color;
+        }
+
+        .previous-kmom {
+            padding: 0.4em;
+        }
+        
+        .next-kmom {
+            padding: 0.4em;
+        }
+    }
+
+    .cont h1,
+    .analys-box {
+        grid-column: span 3;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .landingpage h1,
+    .kmom-box,
+    .kmom-box.project {
+        grid-column: span 3;
+    }
+
+    .sidebar {
+        display: none !important;
+    }
+
+    .report {
+        font-size: 0.7em;
+    }
+
+    .report-container {
+        grid-template-columns: 1fr;
+        width: fit-content;
+    }
+
+    .arrows-kmom {
+        display: flex;
+        justify-content: center;
+        font-size: 3em;
+
+        a {
+            color: $arrow-color;
+        }
+
+        .previous-kmom {
+            padding: 0.4em;
+        }
+        
+        .next-kmom {
+            padding: 0.4em;
+        }
+    }
+
+    .cont h1,
+    .analys-box {
+        grid-column: span 3;
+    }
+}
+
+/* EXTRA SMALL DEVICES */
+@media (max-width: 425px) {
+    .report {
+        font-size: 0.7em;
+    }
+}

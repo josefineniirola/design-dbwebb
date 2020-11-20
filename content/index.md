@@ -12,6 +12,7 @@ Josefine heter jag. Född och uppvuxen i Flen, Sörmland. Jag är en mix av de b
 Mina intressen: Tacos, motorcyklar, hundar, teknik, foto/kameror & spel!
 [![Josefine](assets/img/me.png)](%base_url% "Josefine") {.image .small .float-right}
 
+
 Jag har också alltid älskat att sporta. Jag har nog testat det mesta men sporten jag fastnade för mest var Taekwon-Do. Det kommer låta konstigt men jag älskar att sparkas och slåss. När jag tränade Taekwon-Do så tävlade jag väldigt mycket och var även Instruktör. Det var riktigt kul!
 
 
