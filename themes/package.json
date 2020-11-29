@@ -6,7 +6,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
     "style": "sass josefine/scss/style.scss josefine/css/style.css --no-source-map",
-    "style-min": "sass josefine/scss/style.scss josefine/css/style.min.css --no-source-map --style compressed"
+    "style-min": "sass josefine/scss/style.scss josefine/css/style.min.css --no-source-map --style compressed",
+    "style-dark": "sass josefine/scss/style-dark.scss josefine/css/style-dark.css --no-source-map",
+    "style-min-dark": "sass josefine/scss/style-dark.scss josefine/css/style-dark.min.css --no-source-map --style compressed",
+    "watch": "sass josefine/scss/style.scss josefine/css/style.css --no-source-map --watch",
+    "watch-min": "sass josefine/scss/style.scss josefine/css/style.min.css --no-source-map --style compressed --watch"
   },
   "keywords": [],
   "author": "",

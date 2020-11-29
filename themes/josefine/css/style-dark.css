@@ -6667,8 +6667,8 @@ html body {
 }
 
 body {
-  background: #54413c;
-  background: linear-gradient(0deg, #865038 0%, #b98a80 100%);
+  background: black;
+  background: linear-gradient(0deg, #343434 0%, #0e0e10 67%);
   display: flex;
   flex-direction: column;
   font-family: sans-serif;
@@ -6677,7 +6677,7 @@ body {
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
-  color: #54413c;
+  color: #bba29a;
 }
 
 .header {
@@ -6685,6 +6685,7 @@ body {
   background-position: center;
   background-size: cover;
   height: 300px;
+  filter: grayscale(50%);
   border-bottom: 2px solid #572B1D;
 }
 
@@ -6713,14 +6714,6 @@ body {
   text-align: right;
 }
 
-.logo {
-  overflow: auto;
-  display: block;
-}
-.logo img {
-  width: 30%;
-}
-
 .main {
   flex: 1 0 auto;
   padding: 5em 0 4em;
@@ -6738,7 +6731,7 @@ h6 {
   font-family: "Roboto Slab", sans-serif;
   margin-bottom: 0.4em;
   font-weight: bold;
-  color: #572b1d;
+  color: #bba299;
   margin: 0;
   padding: 0;
 }
@@ -6827,6 +6820,7 @@ li {
 .text-background img {
   float: right;
   width: 50%;
+  filter: grayscale(70%);
 }
 
 /* img {

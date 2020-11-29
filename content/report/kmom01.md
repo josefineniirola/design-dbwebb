@@ -1,4 +1,12 @@
-### Kmom01 
+---
+Title: Kmom01
+Description: This is my report page.
+Template: kmom
+---
+
+Kmom01
+==========================
+
 Jag har inte jobbat med ramverk eller andra CMS:er tidigare, jag förstår inte helt ärligt ännu vad det är. Men jag ska ta reda på det så jag förstår mig på det bättre. Hela denna pico-delen är helt ny grej för mig, men jag känner att man snabbt kan lära sig. 
 
 Just nu kan jag inte komma på om jag har några förutfattade meningar kring design. Jag försöker så gott jag kan att hålla mig öppensinnad. 
@@ -10,3 +18,8 @@ När jag öppnade filen för portfolion trodde jag att jag öppnade något rikti
 - Hur man skriver ut länkar i markdown
 - Lärt mig om pico
 - Även github, förstår mig inte riktigt på det ännu dock.
+
+<div class="arrows-kmom">
+<a href="kmom10"><div class="previous-kmom"><i class="fas fa-angle-double-left"></i></div></a>
+<a href="kmom02"><div class="next-kmom"><i class="fas fa-angle-double-right"></i></div></a>
+</div>

@@ -1,10 +1,10 @@
 ---
-Title: Kmom02
+Title: Projekt
 Description: This is my report page.
 Template: kmom
 ---
 
-Kmom02
+Projekt
 ==========================
 
 Jag tycker sass verkar supersmidigt. Det jag gjorde i min kod denna vecka var att försöka ta css filen jag hade från veckan innan och gjorde om den till sass så jag kan ha allting på en och samma sida. Jag är inte bekant med node eller npm. Jag anser väl inte så mycket om det.

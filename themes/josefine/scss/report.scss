@@ -13,7 +13,7 @@
 }
 
 .kmom-box {
-    background-color: #ececec;
+    background-color: $report-page-background;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +24,6 @@
     }
 
     a {
-        background-color: rgb(25, 50, 44, 0.7);
         width: 100%;
         text-align: center;
     }
@@ -52,6 +51,7 @@
 .sidebar a {
     font-size: 2em;
     text-align: center;
+    font-family: 'Roboto Slab',sans-serif;
 }
 
 .arrow {
@@ -66,12 +66,12 @@
     }
     
     a:hover {
-        color: #ccc;
+        color: $arrow-a-hover;
     }
 }
 
 .report {
-    background-color: rgb(229, 229, 229, 0.5);
+    background-color: $report-page-background;
     padding: 1em 4em;
 
     p {
@@ -92,7 +92,7 @@
 
 /* Analys */
 .analys-box {
-    background-color: #ececec;
+    background-color: $report-page-background;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,7 +103,7 @@
     }
 
     a {
-        background-color: rgb(25, 50, 44, 0.7);
+        background: $report-box-a;
         width: 100%;
         text-align: center;
     }

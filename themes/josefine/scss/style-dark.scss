@@ -1,6 +1,6 @@
 @import 'import';
 
-@import 'variables';
+@import 'variables-dark';
 @import 'report';
 
 @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Slab&display=swap');
@@ -44,6 +44,7 @@ body {
     background-position: center;
     background-size: cover;
     height: 300px;
+    filter: grayscale(50%);
     border-bottom: 2px solid #572b1d;
 }
 
@@ -77,15 +78,6 @@ body {
     }
 }
 
-.logo {
-    overflow: auto;
-    display: block;
-
-    img {
-        width: 30%;
-    }
-}
-
 .main {
     flex: 1 0 auto;
     padding: 5em 0 4em;
@@ -94,6 +86,7 @@ body {
         overflow-x: auto;
     }
 }
+
 
 h1,
 h2,
@@ -201,12 +194,14 @@ li {
     img {
         float: right;
         width: 50%;
+        filter: grayscale(70%);
     }
 }
 
 .apotek-img img {
     float: none;
 }
+
 
 /* img {
     max-width: 100%;
