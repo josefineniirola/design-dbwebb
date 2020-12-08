@@ -28,13 +28,13 @@ Reports
 
 <div class="kmom-box">
     <a href="report/kmom04"><h2>Kmom04</h2></a>
-    <p>Kommer inom kort...</p>
+    <p>Colors</p>
     <div class="arrow"><a href="report/kmom04"><i class="fas fa-arrow-circle-right"></i></a></div>
 </div>
 
 <div class="kmom-box">
     <a href="report/kmom05"><h2>Kmom05</h2></a>
-    <p>Kommer inom kort...</p>
+    <p>Pictures</p>
     <div class="arrow"><a href="report/kmom05"><i class="fas fa-arrow-circle-right"></i></a></div>
 </div>
 

@@ -2,6 +2,7 @@
 
 @import 'variables-dark';
 @import 'report';
+@import 'gallery';
 
 @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Slab&display=swap');
 
@@ -198,14 +199,16 @@ li {
     }
 }
 
-.apotek-img img {
+.report-img img {
     float: none;
+    width: 80%;
+    margin: auto;
 }
 
 
-/* img {
+img {
     max-width: 100%;
-} */
+}
 
 // footer
 .footer {
@@ -305,10 +308,11 @@ li {
     .nav {
         clear: both;
         padding: 1em;
+        margin: 0;
     }
 
     .nav a {
-        color: rgba(25, 50, 44, 0.9);
+        color: $link-color;
     }
 
     .nav ul {

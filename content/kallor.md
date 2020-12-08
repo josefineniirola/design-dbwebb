@@ -6,11 +6,9 @@ icon: fab fa-sourcetree
 
 Mina källor
 ==========================
-Gaming-bakgrund: [Toptal](https://www.toptal.com/designers/subtlepatterns/)
-
 Hund icon-bild : [Blush](https://blush.design/)
 
-Taco icon-bild : [Blush](https://blush.design/)
+Tjejen på förstasidan : [Blush](https://blush.design/)
 
 Header bild: [Pexels](https://www.pexels.com/photo/green-trees-covered-with-fog-4946630/)
 
